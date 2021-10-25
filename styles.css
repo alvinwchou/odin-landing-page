@@ -1,0 +1,66 @@
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+header, .headerwrapper {
+    background-color: #1f2937;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.headersubtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 10px;
+}
+
+.navlinks .headersubtext {
+    margin-left: 30px;
+}
+
+.headerlogotext {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-top: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlinks {
+    display: flex;
+}
+
+.herobox {
+    display: flex;
+}
+
+.herobox1, .herobox2 {
+    width: 50%;
+    margin: 100px 0px;
+}
+
+.herobox1 {
+    padding-right: 100px;
+}
+
+.herobox2 img {
+    width: 100%;
+    height: auto;
+}
+
+.btn {
+    color: white;
+    background-color: #3882f6;
+    padding: 5px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+

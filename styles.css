@@ -2,7 +2,7 @@
     max-width: 1024px;
     margin: 0 auto;
 }
-header, .headerwrapper, footer {
+.fullbleed{
     background-color: #1f2937;
 }
 
@@ -58,8 +58,9 @@ nav {
 
 .btn {
     color: white;
+    font-weight: 700;
     background-color: #3882f6;
-    padding: 5px 20px;
+    padding: 10px 30px;
     display: inline-block;
     border-radius: 10px;
     margin-top: 20px;
@@ -109,7 +110,7 @@ h2 {
 
 }
 
-.quote {
+.quotefullbleed{
     background-color: #e5e7eb;
 }
 
@@ -127,4 +128,38 @@ h3 {
 .quotebox p {
     font-weight: 700;
     text-align: right;
+}
+
+.contactbox {
+    background-color: #3882f6;
+    padding: 50px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto;
+    border-radius: 25px;
+}
+
+.contactbox2 .btn {
+    border-radius: 10px;
+    margin-top: 0px;
+    border: 2px solid white;
+}
+
+h4 {
+    color: white;
+    font-size: 24px;
+}
+
+.contactbox1 p {
+    color: white;
+}
+
+footer {
+    padding: 50px 0px;
+}
+
+.wrapper>p {
+    color: white;
+    text-align: center;
 }

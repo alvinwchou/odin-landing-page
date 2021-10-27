@@ -1,8 +1,8 @@
 .wrapper {
-    width: 1024px;
+    max-width: 1024px;
     margin: 0 auto;
 }
-header, .headerwrapper {
+header, .headerwrapper, footer {
     background-color: #1f2937;
 }
 
@@ -44,6 +44,7 @@ nav {
 .herobox1, .herobox2 {
     width: 50%;
     margin: 100px 0px;
+    flex: 1;
 }
 
 .herobox1 {
@@ -64,3 +65,66 @@ nav {
     margin-top: 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+    padding: 100px 0px;
+}
+
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 20px 0;
+}
+
+.card {
+    display: flex;
+    padding: 0 10%;
+}
+
+.cardbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin: 0px 5px;
+}
+
+.cardboximg {
+    width: 50%;
+    border: 3px solid #3882f6;
+    /* max-height: 20px; */
+    border-radius: 10px;
+}
+
+.cardboximg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quotebox {
+    padding: 100px 10%;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quotebox p {
+    font-weight: 700;
+    text-align: right;
+}
